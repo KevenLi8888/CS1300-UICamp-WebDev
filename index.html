@@ -11,17 +11,26 @@
   <!-- page content goes into <body> -->
   <body>
     <div id="cs1300-gallery">
-      <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+      <h1 class="title">Welcome to my bakery</h1>
+      <p class="subtitle" id="subtitle">A product from UI Camp!</p>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img1.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img2.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img3.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img4.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img5.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/img6.jpg" alt="jeff watching u">
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
+       <button class="btn" onclick="updatePage()">Press this button to display some fruit data</button>
     </div>
   </body>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+  </style>
 
 </html>
